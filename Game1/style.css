@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 20%;
+  background-image: url(./img/menu/Upper.png);
+  background-size: 100% 100%;
+
+}
+
+.Out {
+  height: 75%;
+  background-image: url(./img/menu/background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.In {
+  height: 70%;
+  width: 50%;
+  background-color: rgba(173, 192, 186, 0.377);
+}
+
+footer {
+  height: 5%;
+  background-color: rgb(100, 71, 71);
+}
