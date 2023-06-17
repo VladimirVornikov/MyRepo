@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header></header>
-    <section class="Out">
+    <header>
+      <button onclick="start_game()">Start</button>
+    </header>
+    <section  id="playground" class="Out">
       <section class="In">
-        <div class="Select"></div>
-        <div class="Tutorial"></div>
+        <div onmousedown="miss(event)" id="area">
+          <div onmousedown="hit()" id="object"></div>
+      </div>
       </section>
     </section>
     <footer class="info">
